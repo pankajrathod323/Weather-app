@@ -42,7 +42,7 @@ export function SearchBox({updateInfo}){
      setCity("");
      setError(false);
     }
-    catch(err){
+    catch(error){
       setError(true);
     }
   }
