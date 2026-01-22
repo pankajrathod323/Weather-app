@@ -1,2 +1,43 @@
-.SearchBox{
-text-align: center;}
+.SearchBox {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional input styling */
+.SearchBox input[type="text"] {
+    width: 80%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SearchBox input[type="text"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* Optional button styling */
+.SearchBox button {
+    margin-left: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.SearchBox button:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+}
